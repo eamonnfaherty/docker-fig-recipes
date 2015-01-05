@@ -1,0 +1,12 @@
+mysql:
+  image: mysql:5.6.22
+  environment:
+    MYSQL_ROOT_PASSWORD: CHANGE_ME
+wordpress:
+  image: wordpress:4.1
+  environment:
+    MYSQL_ROOT_PASSWORD: CHANGE_ME
+  links:
+    - mysql:mysql
+  ports:
+    - "8080:80"
