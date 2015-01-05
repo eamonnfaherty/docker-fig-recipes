@@ -9,3 +9,8 @@ MYSQL_ROOT_PASSWORD - set the password to be shared between the mysql and wordpr
 
 ### MySQL container 
 - /var/lib/mysql - where the MySQL data is 
+
+## How to run
+```bash
+fig up
+```
