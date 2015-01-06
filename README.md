@@ -12,3 +12,6 @@ Within the README.md file please include all environment vars and volumes used t
 Do not use the build attribute.
 Use the image attribute.
 Use only publicaly available images. 
+
+## License
+All yml files should be MIT license
