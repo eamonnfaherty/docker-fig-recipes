@@ -1,4 +1,5 @@
 # Wordpress install for docker
+mysql:5.6.22 + wordpress:4.1
 
 ## Config vars
 MYSQL_ROOT_PASSWORD - set the password to be shared between the mysql and wordpres containers
